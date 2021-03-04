@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,h2{
+  font-family: var(--Roboto) !important;
+}
+h1{
+  font-size: 2rem;
+
+}
+h2{
+  font-size: 1.5rem;
+  
+}
+p{
+  color: #696969;
+  font-size: 1rem;
+  font-family: var(--open) !important;
+}
+:root {
+  --Roboto: 'Roboto', sans-serif;
+  --open: 'Open Sans', sans-serif;
+  --primary-color: #cc2020;
+  --ambient-color: #f8694a;
+  --accent-color: #30323a;
+  --cool-color: #156064;
+  font-size: 16px;
+ 
+  --m-1:5rem;
+  --m-2:8rem;
+}
+@media screen and (max-width:800px){
+  h1{
+    font-size: 1.4rem;
+  
+  }
+  h2{
+    font-size: 1.1rem;
+    
+  }
+  p{
+    color: #696969;
+    font-size: .9rem;
+    font-family: var(--open) !important;
+  }
+}
