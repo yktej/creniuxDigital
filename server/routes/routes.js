@@ -2,7 +2,13 @@ const { response } = require('express');
 const express= require('express');
 const router =  express.Router()
 const Myregister =  require('../models/SignUpModels')
-router.post('/signup', (request, response) => {
+
+router.get('/test', (request, response) => {
+    response.json("test")
+
+});
+
+    router.post('/signup', (request, response) => {
     const signedUpUser = new Myregister({
         fullname:request.body.fullname,
         email:request.body.email,
