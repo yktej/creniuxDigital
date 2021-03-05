@@ -57,7 +57,7 @@ class Career extends Component {
       message: this.state.message,
     };
     axios
-      .post("http://localhost:5000/app/signup", regitstered)
+      .post("http://65.0.55.161:4000/app/signup", regitstered)
       .then((res) => console.log(res.data));
 
     this.setState({
