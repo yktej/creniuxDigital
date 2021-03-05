@@ -1,4 +1,4 @@
-POST http://65.0.55.161:4000/app/signup
+POST http://65.0.55.161/app/signup
 Content-Type: application/json
 
 {
