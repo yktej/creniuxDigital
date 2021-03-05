@@ -13,7 +13,9 @@ mongoose.connect(process.env.DATABASE_ACCESS, () => console.log("Database succes
 
 app.use(express.json())
 app.use(cors())
-app.use('/app', routesUrls)
+//app.use('/app', routesUrls)
+//for prod
+app.use('/', routesUrls)
 
 //const port = process.env.PORT || 5000;
 const port = process.env.PORT || 4000;
